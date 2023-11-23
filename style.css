@@ -1,0 +1,81 @@
+li{
+    list-style: none;
+}
+
+.header-list{
+ display: flex;
+ justify-content: space-between;
+}
+
+.header-link{
+    text-decoration: none;
+    color: black;
+}
+
+.header-link::selection{
+    color: white;
+    background-color: black;
+}
+
+.header-link:hover,
+.header-link:focus{
+    color: rgb(48, 247, 247);
+    text-shadow: 1px 1px 4px black;
+}
+
+.main{
+    color: black;
+    text-shadow: 2px 2px 4px blue, 3px 3px 5px orange;
+    letter-spacing: 5px;
+    text-align: center;
+}
+
+.main::selection{
+    color: white;
+    background-color: rgb(153, 153, 153);
+}
+
+.main-photo{
+    width: 700px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px black;
+}
+
+.about-minecraft{
+    text-align: center;
+    color: black;
+}
+
+.about-minecraft::selection{
+    color: white;
+    background-color: black;
+}
+
+.about-minecraft-text{
+    font-size: 20px;
+}
+
+.about-minecraft-text::first-letter::selection{
+    color: rgb(5, 4, 4);
+    font-size: 25px;
+}
+
+.about-minecraft-text::selection{
+    color: white;
+    background-color: rgb(8, 11, 8);
+}
+
+.what-you-can-do-text{
+    font-size: 20px;
+    text-decoration: none;
+    
+
+}
+
+.what-you-can-do-text::selection{
+    color: white;
+    background-color: rgb(8, 11, 8);
+}
